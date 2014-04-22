@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>wallpaper_terraria_bunny__1920x1080__by_milkafan34-d5asopi.png</Source>
+      <Name>wallpaper_terraria_bunny__1920x1080__by_milkafan34-d5asopi</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\GitHub\zf\Test1\Test1\Test1\bin\x86\Debug\Content\wallpaper_terraria_bunny__1920x1080__by_milkafan34-d5asopi.xnb</Output>
+      <Time>2014-04-15T21:57:59.9313163+01:00</Time>
+    </Item>
+    <Item>
+      <Source>star-crafts-happy-zergling_design.png</Source>
+      <Name>star-crafts-happy-zergling_design</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\GitHub\zf\Test1\Test1\Test1\bin\x86\Debug\Content\star-crafts-happy-zergling_design.xnb</Output>
+      <Time>2014-04-15T22:07:11.338855+01:00</Time>
+    </Item>
+    <Item>
+      <Source>blackBall01.png</Source>
+      <Name>blackBall01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\GitHub\zf\Test1\Test1\Test1\bin\x86\Debug\Content\blackBall01.xnb</Output>
+      <Time>2014-04-16T07:52:05.5271277+01:00</Time>
+    </Item>
+    <Item>
+      <Source>silverBall01.png</Source>
+      <Name>silverBall01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\GitHub\zf\Test1\Test1\Test1\bin\x86\Debug\Content\silverBall01.xnb</Output>
+      <Time>2014-04-16T08:01:04.5379574+01:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <ContentProjectGUID>{8DE29C16-A929-464A-9FC9-F4AC1F850F27}</ContentProjectGUID>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>Reach</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>J:\GitHub\zf\Test1\Test1\Test1Content\</RootDirectory>
+      <LoggerRootDirectory>J:\GitHub\zf\Test1\Test1\Test1\</LoggerRootDirectory>
+      <IntermediateDirectory>J:\GitHub\zf\Test1\Test1\Test1\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>J:\GitHub\zf\Test1\Test1\Test1\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2011-09-01T16:22:30+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2011-09-01T16:22:30+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2011-09-01T16:22:30+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2011-09-01T16:22:30+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2011-09-01T16:22:30+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2011-09-01T16:22:30+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2014-04-15T21:10:17.4065892+01:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

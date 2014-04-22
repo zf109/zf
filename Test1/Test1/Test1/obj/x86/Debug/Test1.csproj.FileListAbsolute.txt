@@ -1,0 +1,10 @@
+J:\GitHub\zf\Test1\Test1\Test1\bin\x86\Debug\Content\wallpaper_terraria_bunny__1920x1080__by_milkafan34-d5asopi.xnb
+J:\GitHub\zf\Test1\Test1\Test1\bin\x86\Debug\Test1.exe
+J:\GitHub\zf\Test1\Test1\Test1\bin\x86\Debug\Test1.pdb
+J:\GitHub\zf\Test1\Test1\Test1\obj\x86\Debug\Test1.csprojResolveAssemblyReference.cache
+J:\GitHub\zf\Test1\Test1\Test1\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+J:\GitHub\zf\Test1\Test1\Test1\obj\x86\Debug\Test1.exe
+J:\GitHub\zf\Test1\Test1\Test1\obj\x86\Debug\Test1.pdb
+J:\GitHub\zf\Test1\Test1\Test1\bin\x86\Debug\Content\star-crafts-happy-zergling_design.xnb
+J:\GitHub\zf\Test1\Test1\Test1\bin\x86\Debug\Content\blackBall01.xnb
+J:\GitHub\zf\Test1\Test1\Test1\bin\x86\Debug\Content\silverBall01.xnb
