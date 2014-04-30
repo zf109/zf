@@ -1,0 +1,11 @@
+E:\study\my_workspace\test1\test1\test1\bin\x86\Debug\Content\star-crafts-happy-zergling_design.xnb
+E:\study\my_workspace\test1\test1\test1\bin\x86\Debug\test1.exe
+E:\study\my_workspace\test1\test1\test1\bin\x86\Debug\test1.pdb
+E:\study\my_workspace\test1\test1\test1\obj\x86\Debug\test1.csprojResolveAssemblyReference.cache
+E:\study\my_workspace\test1\test1\test1\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+E:\study\my_workspace\test1\test1\test1\obj\x86\Debug\test1.exe
+E:\study\my_workspace\test1\test1\test1\obj\x86\Debug\test1.pdb
+E:\study\my_workspace\test1\test1\test1\bin\x86\Debug\Content\ball.xnb
+E:\study\my_workspace\test1\test1\test1\bin\x86\Debug\Content\CartoonBackdrops1.xnb
+E:\study\my_workspace\test1\test1\test1\bin\x86\Debug\Content\CartoonBackdrops2.xnb
+E:\study\my_workspace\test1\test1\test1\bin\x86\Debug\Content\cloud1.xnb
