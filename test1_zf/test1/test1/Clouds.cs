@@ -7,31 +7,33 @@ using System.Text;
 
 namespace test1
 {
-    class Clouds
+    class Clouds : Sprite
     {
-        public Texture2D texture;
-        public Rectangle rectangle;
         public Random randomNumGenerator;
         public int stray;
+        public bool isVisible;
 
         public Clouds(Texture2D newTexture, Rectangle newRectangle)
         {
             //get the cloud texture
-            texture = newTexture;
-            rectangle = newRectangle;
+            spriteTexture = newTexture;
+            spriteRectangle = newRectangle;
             randomNumGenerator = new Random();
             stray = randomNumGenerator.Next(1, 4);
+            isVisible = true;
         }
 
-        public void Update()
+        public override void Update()
         {
-            rectangle.X -= stray;
+            spriteRectangle.X -= stray;
+            if (spriteRectangle.X < 0 - spriteRectangle.Width)
+                isVisible = false;
         }
 
-        public void Draw(SpriteBatch spriteBatch)
-        {
-            spriteBatch.Draw(texture,rectangle, Color.White);
-        }
+        //public void Draw(SpriteBatch spriteBatch)
+        //{
+        //    spriteBatch.Draw(texture,rectangle, Color.White);
+        //}
     }
 
 }

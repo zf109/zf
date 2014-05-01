@@ -21,8 +21,10 @@ namespace test1
 
         //game world
         Character zergling;
-        Clouds[] clouds = new Clouds[10];
+        List<Clouds> clouds = new List<Clouds>(10);
+        float spawnCloud = 0;
         sideScrolling scrolling1, scrolling2;
+
         //screen parameters
         int screenWidth;
         int screenHeight;
@@ -71,7 +73,7 @@ namespace test1
             
             //load clouds
             randomNumGenerator = new Random();
-            for (int i = 0; i < clouds.Length; ++i)
+            for (int i = 0; i < clouds.Count; ++i)
                 clouds[i] = new Clouds(Content.Load<Texture2D>("cloud1"), 
                     new Rectangle(randomNumGenerator.Next(0,screenWidth-100), randomNumGenerator.Next(0,screenHeight/3),100,100));
         }
@@ -101,14 +103,39 @@ namespace test1
                 scrolling2.rectangle.X = scrolling1.rectangle.X + scrolling1.rectangle.Width;
             scrolling1.Update();
             scrolling2.Update();
+
             //update the zergling's movement
-            foreach (Clouds cloud in clouds)
-                cloud.Update();
             zergling.Update();
             zergling.RestrictInScreen(screenHeight,screenWidth);
             base.Update(gameTime);
+
+            //update the clouds movement
+            spawnCloud += (float)gameTime.ElapsedGameTime.TotalSeconds;    
+            foreach (Clouds cloud in clouds)
+                cloud.Update();
+            LoadClouds();
+
         }
 
+
+        public void LoadClouds()
+        {
+            int randY = randomNumGenerator.Next(0, screenHeight-100);
+
+            if (spawnCloud >= 1)    //respawn cloud every second
+            {
+                spawnCloud = 0;     //reset respawn timer
+                if (clouds.Count() < 10)    //limit the number of total clouds to 10
+                    clouds.Add(new Clouds(Content.Load<Texture2D>("cloud1"), new Rectangle(screenWidth+100, randY, 100, 100)));
+            }
+
+            for (int i = 0; i < clouds.Count; i ++)
+                if (!clouds[i].isVisible)   //remove the cloud if it becomes invisible
+                {
+                    clouds.RemoveAt(i);
+                    i--;
+                }
+        }
         /// <summary>
         /// This is called when the game should draw itself.
         /// </summary>
@@ -123,7 +150,6 @@ namespace test1
             scrolling2.Draw(spriteBatch);
             foreach (Clouds cloud in clouds)
                 cloud.Draw(spriteBatch);
-
             zergling.Draw(spriteBatch);
             spriteBatch.End();
 

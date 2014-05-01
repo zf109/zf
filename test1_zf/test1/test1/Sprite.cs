@@ -45,6 +45,8 @@ namespace test1
                 if (Keyboard.GetState().IsKeyDown(Keys.S))
                     spriteRectangle.Y += velocity;
             }
+
+            //restrict the Character in the screen
             public void RestrictInScreen(int screenHeight, int screenWidth)
             {
                 if (spriteRectangle.X <= 0)
